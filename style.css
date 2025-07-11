@@ -7,6 +7,10 @@ body {
     font-family: sans-serif;
 }
 
+main {
+    text-align:center;
+}
+
 ul {
   display:flex;
   list-style-type: none;
@@ -29,6 +33,7 @@ li a {
 }
 
 footer {
+    
       position: fixed;
       bottom: 0;
       left: 0;
