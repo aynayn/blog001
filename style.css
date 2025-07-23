@@ -37,8 +37,7 @@ main {
 
 }
 
-.postlist {
-}
+
 
 ul {
   /* display:flex; */
@@ -49,9 +48,7 @@ ul {
   
 }
 
-li {
-    /* float:left; */
-}
+
 
 li a {
   display: block;
@@ -72,5 +69,5 @@ a {
       left: 0;
       width: 100%;
       /*background-color: #f0f0f0; /* Example background color */
-      text-align: center; Example text alignment
+      text-align: center;
     }
