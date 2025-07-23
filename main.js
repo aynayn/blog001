@@ -1,31 +1,31 @@
-
-    // List of posts in order (you manage this)
+// Define all your posts in order
     const posts = [
-      { title: "Post One", url: "001.html" },
-      { title: "Post Two", url: "002.html" },
-      { title: "Post Three", url: "003.html" }
-{ title: "Post Four", url: "004.html" }
-{ title: "Post Five", url: "005.html" }
+      "post1.html",
+      "post2.html",
+      "post3.html",
+      "post4.html",
+      "post5.html"
+      // Add more as needed
     ];
 
-    // Detect current page
-    const currentPath = window.location.pathname.split("/").pop();
+    // Get current filename
+    const currentFile = window.location.pathname.split("/").pop();
 
-    const currentIndex = posts.findIndex(post => post.url === currentPath);
+    // Get index of current post
+    const currentIndex = posts.indexOf(currentFile);
 
-    // Set Next/Prev
+    // Set Prev button
+    const prevBtn = document.getElementById("prevBtn");
     if (currentIndex > 0) {
-      document.getElementById("prevBtn").href = posts[currentIndex - 1].url;
+      prevBtn.href = posts[currentIndex - 1];
     } else {
-      document.getElementById("prevBtn").style.display = "none";
+      prevBtn.style.visibility = "hidden"; // Hide if no previous
     }
 
+    // Set Next button
+    const nextBtn = document.getElementById("nextBtn");
     if (currentIndex < posts.length - 1) {
-      document.getElementById("nextBtn").href = posts[currentIndex + 1].url;
+      nextBtn.href = posts[currentIndex + 1];
     } else {
-      document.getElementById("nextBtn").style.display = "none";
+      nextBtn.style.visibility = "hidden"; // Hide if no next
     }
-
-    // Optional: update title/content placeholders (for demo)
-    document.getElementById("post-title").innerText = posts[currentIndex].title;
-    document.getElementById("post-content").innerText = `This is the content for ${posts[currentIndex].title}.`;
