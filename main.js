@@ -5,8 +5,8 @@
       "003.html",
       "004.html",
       "005.html",
-		 	  "006.html",
-      "007.html"
+      "006.html",
+      "005.md"
 
       // Add more as needed
     ];
