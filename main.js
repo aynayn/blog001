@@ -1,11 +1,9 @@
 
     // List of posts in order (you manage this)
     const posts = [
-      { title: "Post 1", url: "001.html" },
-      { title: "Post 2", url: "002.html" },
-      { title: "Post 3", url: "003.html" }
-      { title: "Post 4", url: "004.html" }
-      { title: "Post 5", url: "005.html" }
+      { title: "Post one", url: "001.html" },
+      { title: "Post two", url: "002.html" },
+      { title: "Post three", url: "003.html" }
     ];
 
     // Detect current page
