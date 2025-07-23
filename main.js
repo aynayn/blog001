@@ -4,7 +4,8 @@
       { title: "Post One", url: "001.html" },
       { title: "Post Two", url: "002.html" },
       { title: "Post Three", url: "003.html" }
-      
+      { title: "Post 4", url: "004.html" }
+      { title: "Post 5", url: "005.html" }
     ];
 
     // Detect current page
