@@ -1,9 +1,18 @@
+html {
+  height: 100%;
+}
+
 body {
+    height: 100%;
     width: 100%;
     max-width: 800px;
     margin: 0 auto;
     background-color: rgb(255, 255, 146);
     font-family: sans-serif;
+}
+
+.box {
+  height: 100%;
 }
 
 header {
@@ -52,7 +61,7 @@ li a {
 .footer {
       
       position: relative;
-      /* margin: 20px 0; */
+      padding-bottom: 10px;
       bottom: 0;
       left: 0;
       width: 100%;
