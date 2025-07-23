@@ -4,7 +4,10 @@
       "002.html",
       "003.html",
       "004.html",
-      "005.html"
+      "005.html",
+		 	  "006.html",
+      "007.html"
+
       // Add more as needed
     ];
 
