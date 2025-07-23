@@ -1,1 +1,1 @@
-https://aynayn.github.io/blog001/
+aynayn.github.io/blog001/
