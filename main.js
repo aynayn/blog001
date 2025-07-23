@@ -1,10 +1,10 @@
 // Define all your posts in order
     const posts = [
-      "post1.html",
-      "post2.html",
-      "post3.html",
-      "post4.html",
-      "post5.html"
+      "001.html",
+      "002.html",
+      "003.html",
+      "094.html",
+      "005.html"
       // Add more as needed
     ];
 
